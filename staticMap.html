@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Nos vincula al archivo JS con la función de carga de mapa -->
+    <script src="staticMap.js"></script>
+    <!-- Agregamos un style   -->
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA ESTATICO</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="staticMap.css">
+</head>
+<h1>Mapa estático</h1>
+
+<body>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARtHeHvBAY54W0TVYCC-R-FZdvTWbh2XQ&loading=async&callback=initMap">
+    </script>
+
+    <!-- AGREGAR UN DIV PARA METER EL MAPA -->
+     <div id="map"></div>
+
+     <a href="geolocalización.html">
+        <div class="bloques">
+            <p>regresar</p>
+        </div>
+    </a>
+</body>
+
+</html>
