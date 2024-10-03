@@ -37,14 +37,6 @@ h1 {
     font-size: 6.4rem;
 }
 
-#map {
-    display: flex;
-    width: 130rem;
-    height: 50rem;
-    margin: 0 auto;
-    border-radius: 2rem;
-}
-
 /* Bloques */
 .bloques {
     display: flex;
